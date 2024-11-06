@@ -1,0 +1,43 @@
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    width: 328px;
+    height: 38;
+    margin-top: 8px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 5px;
+}
+
+p{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(179, 169, 169);
+}
+
+.check, .close{
+    display: block;
+    width: 29px;
+    height: 28px;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    cursor: pointer;
+}
+
+.check{
+    background-image: url('../public/img/cheque.png');
+}
+
+.close{
+    background-image: url('../public/img/close.png');
+}

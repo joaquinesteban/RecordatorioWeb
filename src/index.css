@@ -1,0 +1,35 @@
+body {
+  /* width: 100vw; */
+  /*fondo de la pagina web*/
+  height: 90vh;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  background-image: url('../public/img/fondo-3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*main-box representa el menu de recordatorio display*/
+.main-box{
+  width: 829px;
+  height: 491px;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(43, 41, 41, 1);
+  border-radius: 23px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
