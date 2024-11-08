@@ -33,3 +33,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
 }
+
+.box1{
+  width: 238px;
+  height: 491px;
+  
+  background-image: url('..//public/img/pexels-sohi-807598.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
