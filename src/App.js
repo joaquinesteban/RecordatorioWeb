@@ -4,6 +4,7 @@ import { TodoList } from './TodoList';
 import {TodoItem} from './TodoItem';
 import { CreateTodoButtom } from './CreateTodoButtom';
 import { TodoParagraph } from './TodoParagraph';
+import { TodoUser } from './TodoUser';
 
 import './App.css';
 import React from 'react';
@@ -34,8 +35,13 @@ function App() {
       </div>
 
       <div className='box3'>
+      <TodoUser/>
+
+      <div className='box3-box'>
       <TodoCounter total={25} completed={14}/>
       <TodoSearch/>
+      </div>
+     
       <CreateTodoButtom/>
       </div>
 

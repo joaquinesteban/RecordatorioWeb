@@ -1,6 +1,38 @@
+/*main-box representa el menu de recordatorio display*/
+.main-box{
+    width: 829px;
+    height: 491px;
+  
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(43, 41, 41, 1);
+    border-radius: 23px;
+}
+
+.box1{
+    width: 238px;
+    height: 491px;
+    
+    background-image: url('..//public/img/pexels-sohi-807598.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 
 .box2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
+.box3{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 8px;
+
+   position: relative;
+      
+}
+

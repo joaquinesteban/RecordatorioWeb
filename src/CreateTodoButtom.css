@@ -1,0 +1,17 @@
+.createButtom{
+    display: block;
+    width: 45px;
+    height: 43px;
+    border-radius: 100%;
+    color: black;
+    cursor: pointer;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../public/img/cruz.png);
+
+    position: absolute;
+    bottom: 21px;
+    right: 26px;
+}

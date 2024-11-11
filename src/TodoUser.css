@@ -1,0 +1,21 @@
+.userBox{
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 21px;
+    right: 6px;
+}
+.imageUser{
+    display: inline-block;
+    width: 45px;
+    height: 43px;
+    border-radius: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../public/img/Mark\ Zuckerberg.jpeg);
+
+    
+}
