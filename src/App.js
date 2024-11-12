@@ -19,7 +19,11 @@ const defaultTodos = [
 function App() {
   return (
     <React.Fragment>
-      <div className='box1'></div>
+      <div className='box1'>
+        <div className='hoja1'></div>
+        <div className='hoja2'></div>
+        <div className='hoja3'></div>
+      </div>
 
       <div className='box2'>
       <TodoParagraph/>

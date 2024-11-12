@@ -2,16 +2,16 @@ body {
   /* width: 100vw; */
   /*fondo de la pagina web*/
   height: 90vh;
- 
+  background-color: #9eb480;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 6px;
-  background-image: url('../public/img/fondo-3.jpg');
+  /* background-image: url('../public/img/fondo-3.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-size: cover; */
+
 
   
   margin: 0;

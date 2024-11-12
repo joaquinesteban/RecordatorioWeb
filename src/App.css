@@ -7,6 +7,7 @@
     justify-content: space-between;
     background-color: rgba(43, 41, 41, 1);
     border-radius: 23px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .box1{
@@ -17,8 +18,49 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    position: relative;
+}
+
+.hoja1,.hoja2 ,.hoja3{
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hoja1{
+    width: 153px;
+    height: 122px;
+    background-image: url('../public/img/hoja1.png');
+
+    position: absolute;
+    right: -28px;
+    bottom: 0px;
+}
+
+.hoja2{
+    width: 151px;
+    height: 132px;
+    background-image: url('../public/img/hoja1.png');
+    transform: rotate(300deg);
   
+    position: absolute;
+    right: -45px;
+    top: -16px;
+}
+  
+.hoja3{
+    width: 100px;
+    height: 80px;
+    background-image: url('../public/img/hoja3.png');
+   
+    
+    position: absolute;
+    transform: rotate(150deg);
+    right: 64px;
+    top: 60px;
+}
 
 .box2{
     display: flex;
@@ -27,12 +69,19 @@
 }
 
 .box3{
-   display: flex;
+   width: 190px;
+    display: flex;
    flex-direction: column;
    justify-content: center;
    padding: 8px;
 
    position: relative;
       
+}
+
+.box3-box{
+    position: absolute;
+    left: 4px;
+    top: 166px;
 }
 
