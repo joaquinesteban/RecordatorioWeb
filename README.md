@@ -2,6 +2,8 @@
 
 RecordatorioWeb es una aplicación web diseñada para ayudar a los usuarios a recordar tareas del día a día, como ir al supermercado, hacer llamadas importantes, o cualquier actividad que necesite seguimiento. ¡Mantén tus tareas organizadas y no olvides ninguna actividad importante!
 
+![Imagen desde Dropbox](https://dl.dropboxusercontent.com/s/n4letkauhtxj0kdv3uiic/proyectoRecordatorio.png?rlkey=dlm4a65ic9jwfms4rc0mkjb0m&st=5cvdcuku&dl=0)
+
 ## Características
 
 - Añadir, editar y eliminar tareas diarias
