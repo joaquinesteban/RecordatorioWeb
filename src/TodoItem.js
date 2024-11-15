@@ -4,7 +4,7 @@ function TodoItem(props) {
   return (
     <li>
       <span className='check'></span>
-      <p>{props.text}</p>
+      <p className='p-todoItem'>{props.text}</p>
       <span className='close'></span>
     </li>
   );

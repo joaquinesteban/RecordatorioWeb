@@ -4,12 +4,13 @@
     justify-content: space-evenly;
     position: absolute;
     top: 21px;
-    right: 6px;
+    right: 17px;
 }
 .imageUser{
     display: inline-block;
     width: 45px;
     height: 43px;
+    margin-right: 8px;
     border-radius: 100%;
 
     background-position: center;

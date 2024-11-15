@@ -1,10 +1,16 @@
-.search{
+
+.search {
     font-size: 13px;
     font-weight: bold;
-
-    width: 189px;
-    height: 18px;
+    background: url('../public/img/search.png') no-repeat 8px center; 
+    background-size: 16px;
+    background-color: rgb(217, 217, 217);
+    
+    padding-left: 30px; 
+    width: 166px;
+    height: 20px; 
+    
     border-radius: 10px;
-    border: none;           
-    outline: none;          
+    border: 1px solid #0f0e0e; 
+    outline: none; 
 }

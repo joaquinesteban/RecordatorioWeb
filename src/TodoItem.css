@@ -1,17 +1,16 @@
 
-ul{
+ul {
     list-style-type: none;
 }
 
-li{
+li {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
-
+    margin: 8px 0 14px;
     width: 328px;
     height: 38px;
-    margin-top: 8px;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
 }
@@ -20,24 +19,27 @@ p{
     font-size: 14px;
     font-weight: bold;
     color: rgb(179, 169, 169);
+    flex-grow: 1;
 }
 
-.check, .close{
+.check, .close {
     display: block;
     width: 29px;
     height: 28px;
     margin: 5px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
-
+    background-size: cover;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
-.check{
+.check {
     background-image: url('../public/img/cheque.png');
 }
 
-.close{
+.close {
     background-image: url('../public/img/close.png');
 }
+
+
